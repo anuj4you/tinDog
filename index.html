@@ -29,6 +29,8 @@
 
 <body>
 
+  <!-- title page -->
+
   <section id="title">
     <div class="container-fluid">
 
@@ -106,66 +108,41 @@
   </section>
 
 
-  <!-- Testimonials -->
-
-  <!-- <section id="testimonials">
-    <div><h3>Testimonial</h3></div>
-    
-    <h2>I no longer have to hump my owner's hand for love. I've found the hottest Corgi on tinDog. Woof! Woof!</h2>
-    <img src="images/pancake.gif" alt="pancake-gif">
-    <em>Pancake, Toronto</em>
-    <img src="images/dog-img.jpg" alt="dog-profile">
-    <em>Pebbles, New York</em>
-
-     <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-    <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
-    <em>Beverly, Illinois</em>
-
-  </section> --> 
-
+  <!-- testimonial  -->
   <section id="testimonials">
-    <div>
-      <h3>Testimonials</h3><hr>
 
-      <!-- code embedded -->
-      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <h3>Testimonials</h3>
+    <hr>
+
+
+    <!-- code embedded -->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="3000">
+          <h2>I no longer have to hump my owner's hand for love. Woof! Woof!</h2>
+          <img src="images/pancake.gif" class="d-block test-image" alt="pancake-gif">
+          <em>Pancake, Toronto</em>
         </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="..." class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the second slide.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p>
-            </div>
-          </div>
+        <div class="carousel-item" data-bs-interval="2500">
+          <h2>I love to sniff! tinDog helped me so much.</h2>
+          <img src="images/dog-img.jpg" class="d-block test-image " alt="dog-image">
+          <em>Pebbles, New York</em>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+        <div class="carousel-item" data-bs-interval="2500">
+          <h2>My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+          <img src="images/lady-img.jpg" class="d-block test-image" alt="lady-image">
+          <em>Maddy, Texas</em>
+        </div>
       </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
 
 
     </div>
@@ -180,46 +157,63 @@
   <!-- Press -->
 
   <section id="press">
-    <img src="images/techcrunch.png" alt="tc-logo">
-    <img src="images/tnw.png" alt="tnw-logo">
-    <img src="images/bizinsider.png" alt="biz-insider-logo">
-    <img src="images/mashable.png" alt="mashable-logo">
+    <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
+    <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
 
   </section>
 
 
-  <!-- Pricing -->
+  <!-- Pricing --> 
 
   <section id="pricing">
-
-    <h2>A Plan for Every Dog's Needs</h2>
+    <h2 id="h2-price">A plan for every dog's need</h2>
     <p>Simple and affordable price plans for your and your dog.</p>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          
+          <div class="card-body">
+            <h3>Chihuahua</h3>
+            <h2>Free</h2>
+            <p>5 Matches Per Day</p>
+            <p>10 Messages Per Day</p>
+            <p>Unlimited App Usage</p>
+            <button type="button" class="btn btn-outline-danger btn-lg btn-signup" id="signup-1">Sign Up</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          
+          <div class="card-body">
+            <h3>Labrador</h3>
+            <h2>$49 / mo</h2>
+            <p>Unlimited Matches</p>
+            <p>Unlimited Messages</p>
+            <p>Unlimited App Usage</p>
+            <button type="button" class="btn btn-outline-danger btn-lg btn-signup" id="signup-2">Sign Up</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          
+          <div class="card-body">
+            <h3>Mastiff</h3>
+            <h2>$99 / mo</h2>
+            <p>Pirority Listing</p>
+            <p>Unlimited Matches</p>
+            <p>Unlimited Messages</p>
+            <p>Unlimited App Usage</p>
+            <button type="button" class="btn btn-outline-danger btn-lg btn-signup">Sign Up</button>
+          </div>
+        </div>
+      </div>
 
-
-    <h3>Chihuahua</h3>
-    <h2>Free</h2>
-    <p>5 Matches Per Day</p>
-    <p>10 Messages Per Day</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
-
-    <h3>Labrador</h3>
-    <h2>$49 / mo</h2>
-    <p>Unlimited Matches</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
-
-    <h3>Mastiff</h3>
-    <h2>$99 / mo</h2>
-    <p>Pirority Listing</p>
-    <p>Unlimited Matches</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
+      </div>
+    </div>
   </section>
 
 
@@ -227,9 +221,11 @@
 
   <section id="cta">
 
-    <h3>Find the True Love of Your Dog's Life Today.</h3>
-    <button type="button">Download</button>
-    <button type="button">Download</button>
+    <h2>Find the True Love of Your Dog's Life Today.</h2>
+    <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i>
+      Download</button>
+    <button type="button" class="btn btn-success btn-lg download-button"><i class="fab fa-android"></i>
+      Download</button>
 
   </section>
 
@@ -238,7 +234,7 @@
 
   <footer id="footer">
 
-    <p>© Copyright TinDog</p>
+    <p>© Copyright tinDog</p>
 
   </footer>
 

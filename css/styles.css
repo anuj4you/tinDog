@@ -7,11 +7,22 @@ h1{
 }
 
 
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    line-height: 2;
+    font-size: 3rem;
+    
+    
+}
+
 h3 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 1.5rem;
 }
+
+
 
 body{
     font-family: 'Montserrat', sans-serif;
@@ -21,6 +32,11 @@ body{
 
 
 /* title ::content */
+
+.navbar-toggler-icon {
+    width: 4.5em;
+    height: 4.5em;
+}
 
 .navbar{
     padding-bottom: 3.5%;
@@ -102,6 +118,71 @@ body{
 /* Testimonials */
 
 #testimonials{
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 5% 15%;
+    color: white;
+}
+
+.test-image{
+    width: 20%;
+    text-align: center;
+    margin: 2% auto;
+
+}
+
+
+
+/* press-section */
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+}
+
+.press-logo{
+    padding: 1% 1%;
+    margin: 1% 1%;
+}
+
+
+/* price section    */
+
+#pricing{
+
+    text-align: center;
+    margin: 0 auto;
+    padding: 3% 5%;
+    background-color: #fff;
+    
+}
+
+
+.btn-signup{
+    margin: 5% 4% 5% 4%;
+    width: 50%;
+}
+
+#signup-1{
+    margin-top: 12%;
+}
+#signup-2{
+    margin-top: 12%;
+    
+}
+
+/* cta section  */
+
+#cta{
+    background-color: #ff4c68;
+    color: white;
+    text-align: center;
+    padding: 5% 4%;
+
+}
+
+
+#footer{
     text-align: center;
 }
 
